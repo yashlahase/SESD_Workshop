@@ -74,9 +74,9 @@ mycli fileinfo package.json
 ### 4. **weather** - Get weather information
 ```bash
 mycli weather London
-# Output: Temperature, condition, humidity
+# Output: Temperature, condition, wind speed
 ```
-**API Used**: wttr.in
+**API Used**: Open-Meteo API (Free, no API key required)
 
 ### 5. **github** - Get GitHub user info
 ```bash
@@ -90,7 +90,7 @@ mycli github torvalds
 mycli quote
 # Output: Random inspirational quote with author
 ```
-**API Used**: Quotable API
+**API Used**: ZenQuotes API
 
 ### 7. **crypto** - Get cryptocurrency price
 ```bash

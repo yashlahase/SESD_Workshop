@@ -17,10 +17,10 @@ class Quote_Command {
 
     async getQuote() {
         try {
-            const res = await axios.get("https://api.quotable.io/random");
-            const quote = res.data;
-            console.log(chalk.green(`\n💬 "${quote.content}"`));
-            console.log(chalk.yellow(`   - ${quote.author}`));
+            const res = await axios.get("https://zenquotes.io/api/random");
+            const quote = res.data[0];
+            console.log(chalk.green(`\n💬 "${quote.q}"`));
+            console.log(chalk.yellow(`   - ${quote.a}`));
         } catch (err) {
             console.log(chalk.red("Error fetching quote"));
         }
