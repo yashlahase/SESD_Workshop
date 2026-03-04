@@ -248,18 +248,3 @@ mycli quote
 ✅ TypeScript support  
 ✅ Modular architecture  
 
-## 📄 License
-
-ISC
-
-## 👤 Author
-
-Your Name
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
----
-
-Made with ❤️ using Node.js and TypeScript
